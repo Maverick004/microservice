@@ -4,12 +4,12 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="maverick004/microproject:v1.0.0"
+dockerpath="maverick004/microproject:v1"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run microproject\
-    --image=$dockerpath\
+kubectl run microproject \
+    --image=maverick004/microproject:v1 \
     --port=80 --labels app=microproject
 
 # Step 3:

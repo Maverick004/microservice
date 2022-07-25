@@ -5,14 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="maverick004/microproject:v1.0.0"
+dockerpath="maverick004/microproject:v1"
 
 # Step 2:  
-# Authenticate & tag
+# Authenticate & tags
 docker login
-docker tag microproject ${dockerpath}
+docker tag microproject $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
-docker push ${dockerpath}
+docker push $dockerpath

@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Maverick004/microservice/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Maverick004/microservice/tree/master)
+
 <include a CircleCI status badge, here>
 
 ## Project Overview

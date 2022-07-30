@@ -25,7 +25,7 @@ Requirements
 * Create a virtualenv with Python 3.7 and activate it utilizing the "Makefile" file.
 
 ```
-python3 -m pip install --user virtualenv`
+python3 -m pip install --user virtualenv
 # You should have Python 3.7 available in your host. 
 # Check the Python path using `which python3`
 # Use a command similar to this one:
